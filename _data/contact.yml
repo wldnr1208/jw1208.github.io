@@ -3,7 +3,7 @@
 - type: email
   icon: "fas fa-envelope"
   noblank: true
-  url: "mailto:wldnr1208@naver.com" # 이메일 주소를 mailto 프로토콜로 설정
+  url: "https://wldnr1208@naver.com" # 이메일 주소를 mailto 프로토콜로 설정
 
 - type: github
   icon: "fab fa-github"
