@@ -1,13 +1,13 @@
 #  The contact options.
 
-- type: github
-  icon: "fab fa-github"
-  url: "https://github.com/wldnr1208" # Fill with your Linkedin homepage
-
 - type: email
   icon: "fas fa-envelope"
   noblank: true
   url: "mailto:wldnr1208@naver.com" # 이메일 주소를 mailto 프로토콜로 설정
+
+- type: github
+  icon: "fab fa-github"
+  url: "https://github.com/wldnr1208" # Fill with your Linkedin homepage
 
 - type: linkedin
   icon: "fab fa-linkedin"
