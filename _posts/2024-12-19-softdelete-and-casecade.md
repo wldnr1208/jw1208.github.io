@@ -176,5 +176,3 @@ public class User {
 - [JPA Entity Lifecycle Events](https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#events)
 - [Hibernate @SQLDelete](https://docs.jboss.org/hibernate/orm/5.4/javadocs/org/hibernate/annotations/SQLDelete.html)
 - [GDPR Article 17 - Right to erasure](https://gdpr-info.eu/art-17-gdpr/)
-
-![Different database deletion strategies illustration](/assets/img/posts/delete-strategy.png)
