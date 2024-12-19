@@ -8,6 +8,7 @@ image:
   path: /assets/img/posts/delete-strategy.PNG  # baseurl 제거하고 순수 asset 경로만 사용
   alt: Different database deletion strategies illustration
 pin: false
+comments: true    # 이 부분 추가
 ---
 
 ## 들어가며
@@ -176,5 +177,3 @@ public class User {
 - [JPA Entity Lifecycle Events](https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#events)
 - [Hibernate @SQLDelete](https://docs.jboss.org/hibernate/orm/5.4/javadocs/org/hibernate/annotations/SQLDelete.html)
 - [GDPR Article 17 - Right to erasure](https://gdpr-info.eu/art-17-gdpr/)
-
-![Different database deletion strategies illustration](/assets/img/posts/delete-strategy.png)
