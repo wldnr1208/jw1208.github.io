@@ -108,17 +108,17 @@ social_preview_image: # string, local or CORS resources
 toc: true
 
 comments:
-  provider: giscus # 댓글 시스템으로 giscus 사용
+  provider: giscus # giscus를 사용하도록 설정
   giscus:
-    repo: wldnr1208/jw1208.github.io # 여러분의 블로그 레포지토리
-    repo_id: R_kgDOK-ElRA # giscus.app에서 확인 가능한 repo ID
-    category: Comments # 댓글을 저장할 Discussions 카테고리
-    category_id: DIC_kwDOK-ElRM4CcQ9Q # giscus.app에서 확인 가능한 카테고리 ID
-    mapping: pathname # 페이지와 discussion 매핑 방식
-    strict: 0 # strict 매핑 비활성화
-    input_position: bottom # 댓글 입력창 위치
-    lang: ko # 한국어 설정
-    reactions_enabled: 1 # 반응 기능 활성화
+    repo: wldnr1208/jw1208.github.io # 스크립트의 data-repo 값
+    repo_id: R_kgDONchoyA # 스크립트의 data-repo-id 값
+    category: General # 원하는 카테고리 이름 설정
+    category_id: DIC_kwDONchoyA4CcnNJ # 카테고리 ID 설정
+    mapping: pathname # 스크립트의 data-mapping 값
+    strict: 0 # 스크립트의 data-strict 값
+    input_position: bottom # 스크립트의 data-input-position 값
+    lang: ko # 스크립트의 data-lang 값
+    reactions_enabled: 1 # 스크립트의 data-reactions-enabled 값
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
