@@ -5,7 +5,7 @@ date: 2024-12-19 14:00:00 +0900
 categories: [Database, Architecture]
 tags: [soft-delete, cascade-delete, database-design, jpa, spring-boot]
 image:
-  path: https://ibb.co/7CrGFhz  # baseurl 제거하고 순수 asset 경로만 사용
+  path: https://drive.google.com/file/d/1-19AOBaM3feDOP8P1p3ZS-MsGkjyPTeB/view?usp=sharing  # baseurl 제거하고 순수 asset 경로만 사용
   alt: Different database deletion strategies illustration
 pin: false
 ---
