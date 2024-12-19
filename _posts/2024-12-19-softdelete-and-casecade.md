@@ -5,7 +5,7 @@ date: 2024-12-19 14:00:00 +0900
 categories: [Database, Architecture]
 tags: [soft-delete, cascade-delete, database-design, jpa, spring-boot]
 image:
-  path: /assets/img/posts/delete-strategy.png  # 여기를 수정
+  path: /jw1208.github.io/assets/img/posts/delete-strategy.png
   alt: Different database deletion strategies illustration
 pin: false
 ---
