@@ -5,7 +5,7 @@ date: 2024-12-19 14:00:00 +0900
 categories: [Database, Architecture]
 tags: [soft-delete, cascade-delete, database-design, jpa, spring-boot]
 image:
-  path: https://drive.google.com/file/d/1-19AOBaM3feDOP8P1p3ZS-MsGkjyPTeB/view?usp=sharing  # baseurl 제거하고 순수 asset 경로만 사용
+  path: /assets/img/posts/delete-strategy.PNG  # baseurl 제거하고 순수 asset 경로만 사용
   alt: Different database deletion strategies illustration
 pin: false
 ---
@@ -176,3 +176,5 @@ public class User {
 - [JPA Entity Lifecycle Events](https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html#events)
 - [Hibernate @SQLDelete](https://docs.jboss.org/hibernate/orm/5.4/javadocs/org/hibernate/annotations/SQLDelete.html)
 - [GDPR Article 17 - Right to erasure](https://gdpr-info.eu/art-17-gdpr/)
+
+![Different database deletion strategies illustration](/assets/img/posts/delete-strategy.png)
