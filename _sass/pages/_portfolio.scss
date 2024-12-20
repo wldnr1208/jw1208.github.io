@@ -1,0 +1,93 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/breakpoints' as bp;
+@use '../abstracts/mixins' as mx;
+@use '../abstracts/placeholders';
+
+/*
+ * Portfolio page styling
+ */
+
+.portfolio-wrapper {
+  padding: 2rem 0;
+  animation: fade-up 0.8s;
+
+  .portfolio-year {
+    @extend %heading;
+    margin: 2.5rem 0 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--heading-color);
+  }
+
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.25rem;
+    margin: 1.25rem 0;
+
+    @include bp.lte(sm) {
+      // mq를 bp.lte로 변경
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .portfolio-item {
+    background: var(--card-bg);
+    border: 1px solid var(--main-border-color);
+    border-radius: var(--radius); // radius-lg를 radius로 변경
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: translateY(-0.25rem);
+      box-shadow: var(--shadow); // 직접 rgba 대신 변수 사용
+    }
+  }
+
+  .portfolio-image {
+    width: 100%;
+    height: 300px; // 높이를 늘려서 더 큰 이미지 영역 확보
+    overflow: hidden;
+    background-color: var(--card-bg);
+    display: flex; // Flexbox 추가
+    align-items: center; // 세로 중앙 정렬
+    justify-content: center; // 가로 중앙 정렬
+    padding: 1rem; // 여백 추가
+
+    img {
+      width: auto; // 자동 너비
+      height: auto; // 자동 높이
+      max-width: 100%; // 최대 너비 제한
+      max-height: 100%; // 최대 높이 제한
+      object-fit: contain; // 비율 유지
+      transition: transform 0.3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.05); // 호버 시 약간 확대
+      }
+    }
+  }
+  .portfolio-content {
+    padding: 1rem;
+
+    h3 {
+      @extend %heading;
+      margin: 0;
+      font-size: 1.3rem;
+      color: var(--heading-color);
+    }
+
+    .portfolio-tech {
+      color: var(--text-muted-color);
+      font-size: 0.9rem;
+      margin: 0.5rem 0;
+    }
+
+    .portfolio-date {
+      // .portfolio-date를 .portfolio-period로 변경
+      color: var(--text-muted-color);
+      font-size: 0.85rem;
+      margin: 0;
+    }
+  }
+}
