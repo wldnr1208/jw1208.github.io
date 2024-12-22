@@ -1,9 +1,9 @@
 ---
-title: "소프트 딜리트 vs 캐스케이드 딜리트: 데이터 삭제 전략 비교"
+title: "[Back-End]소프트 딜리트 vs 캐스케이드 딜리트: 데이터 삭제 전략 비교"
 author: jw1208
 date: 2024-12-19 14:00:00 +0900
 categories: [Database, Architecture]
-tags: [soft-delete, cascade-delete, database-design, jpa, spring-boot]
+tags: [soft-delete, cascade-delete, database-design, jpa, spring-boot, Back-end]
 image:
   path: /assets/img/posts/delete-strategy.PNG  # baseurl 제거하고 순수 asset 경로만 사용
   alt: Different database deletion strategies illustration
