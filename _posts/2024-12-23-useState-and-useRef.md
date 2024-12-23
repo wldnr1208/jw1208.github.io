@@ -69,7 +69,8 @@ function DiaryEntry() {
   const diaryContent = useRef("오늘의 일기...");
   
   const updateDiary = () => {
-    diaryContent.current += " 추가 내용";  // 일기는 써지지만, 보여주려면 추가 작업 필요
+    diaryContent.current += " 추가 내용";  
+    // 일기는 써지지만, 보여주려면 추가 작업 필요
   };
 }
 ```
