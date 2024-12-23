@@ -1,11 +1,11 @@
 ---
 title: "[React] useRef vs useState: 상태 관리의 두 주역 완벽 비교"
 author: jw1208
-date: 2024-12-23 14:00:00 +0900
+date: 2024-12-23 00:00:00 +0900
 categories: [Web Development, React]
 tags: [react, hooks, useRef, useState, Front-end]
 image:
-  path: /assets/img/posts/react-hooks.PNG
+  path: /assets/img/posts/useRef.PNG
   alt: React Hooks Comparison
 pin: false
 comments: true
