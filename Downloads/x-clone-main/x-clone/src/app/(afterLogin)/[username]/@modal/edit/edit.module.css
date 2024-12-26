@@ -1,0 +1,133 @@
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+
+.modal {
+  background-color: black;
+  width: 600px;
+  min-height: 400px;
+  max-height: 90vh;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.closeButton {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+}
+
+.closeButton:hover {
+  background-color: rgba(239, 243, 244, 0.1);
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.saveButton {
+  padding: 0 16px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.saveButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.saveButton:hover:not(:disabled) {
+  background-color: rgb(215, 219, 220);
+}
+
+.formContainer {
+  flex: 1;
+  padding: 16px;
+}
+
+.inputGroup {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  font-size: 13px;
+  color: rgb(113, 118, 123);
+  margin-bottom: 8px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  background-color: transparent;
+  border: 1px solid rgb(47, 51, 54);
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+.input:focus {
+  border-color: rgb(29, 155, 240);
+  outline: none;
+}
+
+.textarea {
+  composes: input;
+  resize: none;
+  min-height: 120px;
+}
+
+.checkboxGroup {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  accent-color: rgb(29, 155, 240);
+}
+
+.checkboxLabel {
+  font-size: 15px;
+}
