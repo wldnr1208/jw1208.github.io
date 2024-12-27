@@ -5,7 +5,7 @@ date: 2024-12-27 00:00:00 +0900
 categories: [Frontend Development, Next.js]
 tags: [nextjs, typescript, error, build, frontend, debugging]
 image:
-  path: /assets/img/posts/nextjs-errors.png
+  path: /assets/img/posts/nextjs-errors.PNG
   alt: Next.js Build Errors Troubleshooting Guide
 pin: false
 comments: true
