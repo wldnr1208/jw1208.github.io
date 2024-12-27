@@ -158,6 +158,9 @@ kramdown:
       start_line: 1
 
 collections:
+  projects:
+    output: true
+    permalink: /projects/:title
   tabs:
     output: true
     sort_by: order
@@ -183,6 +186,13 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+      comments: true
+      permalink: /projects/:title/
 
 sass:
   style: compressed

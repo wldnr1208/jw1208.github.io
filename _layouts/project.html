@@ -1,0 +1,17 @@
+---
+layout: page
+---
+
+<article class="project-detail">
+  <div class="project-header">
+    <h1>{{ page.title }}</h1>
+    <img src="{{ page.image }}" alt="{{ page.title }}" class="project-image" />
+  </div>
+
+  <div class="project-info">
+    <p class="tech">[{{ page.tech }}]</p>
+    <p class="period">{{ page.period }}</p>
+  </div>
+
+  <div class="project-content">{{ content }}</div>
+</article>

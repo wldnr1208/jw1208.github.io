@@ -1,0 +1,23 @@
+.project-detail {
+  margin-top: 2rem;
+
+  .project-image {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 1rem;
+  }
+
+  .project-info {
+    margin-bottom: 2rem;
+  }
+
+  .project-tech {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+  }
+
+  .project-period {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+  }
+}
