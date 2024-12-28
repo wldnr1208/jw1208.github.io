@@ -4,7 +4,7 @@ title: Lensly
 tech: Next.js, React, Redux-Saga, Kakao Map API
 period: 2024.01 - 2024.02
 image: 
- path: /assets/img/project/lenslys.PNG
+ path: /assets/img/portfolio/lensly.PNG
  alt: Lensly Project
 ---
 

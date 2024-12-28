@@ -14,8 +14,8 @@ years:
         
       - title: Lensly
         tech: Next.js, Redux-Saga, KaKaoMap
-        period: 2024.01 - 2024.01
-        image: /assets/img/portfolio/lensly.PNG
+        period: 2024.01 - 2024.02
+        image: /assets/img/project/lenslys.PNG
         url: /jw1208.github.io/projects/lensly
         
   - title: 2023
