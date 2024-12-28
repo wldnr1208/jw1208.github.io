@@ -1,5 +1,5 @@
 ---
-title: "[Front-end] useRef vs useState: 상태 관리의 두 주역 완벽 비교"
+title: "[Front-end] useRef vs useState: 상태 관리의 두 주역 비교"
 author: jw1208
 date: 2024-12-23 00:00:00 +0900
 categories: [Web Development, React]

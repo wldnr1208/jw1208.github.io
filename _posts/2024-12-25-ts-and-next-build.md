@@ -1,5 +1,5 @@
 ---
-title: "[Troubleshooting] Next.js 14+ TypeScript 빌드 에러 완벽 가이드"
+title: "[Troubleshooting] Next.js 14+ TypeScript 빌드 에러 가이드"
 author: jw1208
 date: 2024-12-27 00:00:00 +0900
 categories: [Frontend Development, Next.js]
