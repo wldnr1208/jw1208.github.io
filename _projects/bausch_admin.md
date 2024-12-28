@@ -3,11 +3,14 @@ layout: project
 title: BAUSCH_ADMIN
 tech: Next.js, React, Redux Toolkit, Redux-Saga, React-Hook-Form, Ant-Design, KakaoMap API, Emotion
 period: 2024.05 - 2024.10
-image: "/jw1208.github.io/assets/img/portfolio/baucch.PNG"
+image: 
+  path: /assets/img/project/baucch.PNG
+  alt: Bausch Admin Project Screenshot
 ---
 
 ## 프로젝트 소개
-바우시앤롬의 통합 어드민 시스템 개발 프로젝트입니다. 관리자가 효율적으로 시스템을 운영할 수 있도록 직관적인 UI/UX를 제공하고, 다양한 관리 기능을 구현했습니다.
+바슈롬의 통합 어드민 시스템 개발 프로젝트입니다. 관리자가 효율적으로 시스템을 운영할 수 있도록 
+직관적인 UI/UX를 제공하고, 다양한 관리 기능을 구현했습니다.
 
 ## 프로젝트 규모
 - 개발 인원: 4명 (프론트엔드 2명, 백엔드 2명)
