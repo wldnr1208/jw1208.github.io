@@ -33,7 +33,7 @@
 
   .portfolio-item {
     background: var(--card-bg);
-    border: 1px solid var(--main-border-color);
+    border: 1.5px solid var(--main-border-color);
     border-radius: var(--radius);
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
@@ -54,6 +54,7 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    border: 1.5px solid var(--main-border-color);
   }
   .portfolio-content {
     padding: 1rem;
