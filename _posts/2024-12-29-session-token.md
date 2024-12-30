@@ -3,7 +3,7 @@ layout: post
 title: "[공통] 웹 인증의 세 가지 방식: 세션 vs 쿠키 vs 토큰"
 date: 2024-12-29
 categories: [Web, Security]
-tags: [session, cookie, token, authentication, web security]
+tags: [Common, session, cookie, token, authentication, web security]
 pin: false
 comments: true
 ---
