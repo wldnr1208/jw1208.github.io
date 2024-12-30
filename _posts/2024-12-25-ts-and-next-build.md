@@ -9,8 +9,6 @@ image:
   alt: Next.js Build Errors Troubleshooting Guide
 pin: false
 comments: true
-math: true
-mermaid: true
 ---
 
 ## 들어가며

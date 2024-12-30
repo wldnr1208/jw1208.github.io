@@ -4,6 +4,8 @@ title: "[공통] REST API: 개념부터 실전 예제까지"
 date: 2024-12-30
 categories: [Backend, API]
 tags: [REST, API, HTTP, Web Development]
+pin: false
+comments: true
 ---
 
 # REST API 완벽 가이드: 개념부터 실전 예제까지
