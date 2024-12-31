@@ -5,7 +5,7 @@ date: 2024-12-31
 categories: [Back-End, Spring]
 tags: [spring-data-jpa, entity, persistence, back-end, spring-boot]
 image:
-  path: /assets/img/posts/delete-strategy.PNG
+  path: /assets/img/posts/jpaentity.PNG
   alt: Different database deletion strategies illustration
 pin: false
 comments: true
