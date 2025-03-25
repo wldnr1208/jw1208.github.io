@@ -197,7 +197,6 @@ defaults:
 sass:
   style: compressed
   load_paths:
-    - assets/css
     - _sass
 
 compress_html:
