@@ -22,31 +22,31 @@ order: 4
 
 ### Frontend
 <div style="display: flex; gap: 1rem; margin: 1.5rem 0;">
-    <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-    <img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=black"/>
-    <img src="https://img.shields.io/badge/nextdotjs-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
-    <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white"/>
+    <img alt="React" src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+    <img alt="TypeScript" src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=black"/>
+    <img alt="Next.js" src="https://img.shields.io/badge/nextdotjs-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
+    <img alt="Redux" src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white"/>
 </div>
 
 ### Development Tools
 <div style="display: flex; gap: 1rem; margin: 1.5rem 0;">
-    <img src="https://img.shields.io/badge/axios-F36633?style=for-the-badge&logo=axios&logoColor=white"/>
-    <img src="https://img.shields.io/badge/yarn-FFB3C7?style=for-the-badge&logo=yarn&logoColor=white"/>
-    <img src="https://img.shields.io/badge/reactrouter-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white"/>
-    <img src="https://img.shields.io/badge/dotenv-ECD53F?style=for-the-badge&logo=dotenv&logoColor=white"/>
+    <img alt="Axios" src="https://img.shields.io/badge/axios-F36633?style=for-the-badge&logo=axios&logoColor=white"/>
+    <img alt="Yarn" src="https://img.shields.io/badge/yarn-FFB3C7?style=for-the-badge&logo=yarn&logoColor=white"/>
+    <img alt="React Router" src="https://img.shields.io/badge/reactrouter-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white"/>
+    <img alt="Dotenv" src="https://img.shields.io/badge/dotenv-ECD53F?style=for-the-badge&logo=dotenv&logoColor=white"/>
 </div>
 
 ### Build Tools & Styling
 <div style="display: flex; gap: 1rem; margin: 1.5rem 0;">
-    <img src="https://img.shields.io/badge/babel-F9DC3E?style=for-the-badge&logo=babel&logoColor=white"/>
-    <img src="https://img.shields.io/badge/tailwindcss-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
-    <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white"/>
+    <img alt="Babel" src="https://img.shields.io/badge/babel-F9DC3E?style=for-the-badge&logo=babel&logoColor=white"/>
+    <img alt="Tailwind CSS" src="https://img.shields.io/badge/tailwindcss-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+    <img alt="Styled Components" src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white"/>
 </div>
 
 ### Backend
 <div style="display: flex; gap: 1rem; margin: 1.5rem 0;">
-    <img src="https://img.shields.io/badge/JAVA-007396?style=for-the-badge&logo=java&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+    <img alt="Java" src="https://img.shields.io/badge/JAVA-007396?style=for-the-badge&logo=java&logoColor=white"/>
+    <img alt="Spring" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
 </div>
 
 ## ✉️ Contact Me
