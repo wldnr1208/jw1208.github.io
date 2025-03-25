@@ -18,3 +18,5 @@ gem "jekyll", "~> 4.3.0"
 gem "jekyll-archives", "~> 2.2"      # 필요한 의존성
 gem "jekyll-seo-tag", "~> 2.8"       # 필요한 의존성
 gem "jekyll-redirect-from", "~> 0.16" # 필요한 의존성
+gem "csv"
+gem "base64"
