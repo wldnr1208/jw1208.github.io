@@ -78,8 +78,8 @@ main {
 
   img {
     height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
+    -o-object-fit: contain;
+    object-fit: contain;
 
     @extend %rounded;
 
@@ -257,7 +257,6 @@ main {
   background: var(--img-bg);
 
   &::before {
-    content: '';
     position: absolute;
     background: var(--shimmer-bg);
     height: 100%;

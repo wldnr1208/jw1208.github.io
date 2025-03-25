@@ -1,18 +1,23 @@
 #  The contact options.
 
-- type: github
-  icon: "fab fa-github"
-
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
-
 - type: email
   icon: "fas fa-envelope"
-  noblank: true # open link in current tab
-
-- type: rss
-  icon: "fas fa-rss"
   noblank: true
+  url: "https://wldnr1208@naver.com" # 이메일 주소를 mailto 프로토콜로 설정
+
+- type: github
+  icon: "fab fa-github"
+  url: "https://github.com/wldnr1208" # Fill with your Linkedin homepage
+
+- type: linkedin
+  icon: "fab fa-linkedin"
+  noblank: true
+  url: "https://www.linkedin.com/in/%EC%A0%95%EC%9A%B0-%EC%9D%B4-1aa86b271/"
+
+- type: portfolio
+  icon: "fas fa-briefcase"
+  url: "https://portfolio-wldnr1208.vercel.app/" # 포트폴리오 URL
+
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon

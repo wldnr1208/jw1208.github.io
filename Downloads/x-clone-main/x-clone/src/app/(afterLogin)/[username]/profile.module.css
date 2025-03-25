@@ -1,0 +1,156 @@
+.main {
+  width: 600px;
+  border-color: rgb(239, 243, 244);
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-right-style: solid;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: white;
+  color: black;
+}
+
+.header {
+  display: flex;
+  height: 53px;
+  align-items: center;
+  padding: 0 16px;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.headerTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerTitle span:last-child {
+  font-size: 13px;
+  color: rgb(113, 118, 123);
+}
+
+.profileContainer {
+  padding: 12px 16px;
+  border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.profileHeader {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.userImage {
+  width: 134px;
+  height: 134px;
+  border-radius: 50%;
+  background-color: #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.editButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: 1px solid rgb(207, 217, 222);
+  padding: 0 16px;
+  border-radius: 20px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: transparent;
+  color: bla;
+  cursor: pointer;
+}
+
+.editButton:hover {
+  background-color: rgba(239, 243, 244, 0.1);
+}
+
+.userInfo {
+  margin-bottom: 16px;
+}
+
+.userName {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.userHandle {
+  font-size: 15px;
+  color: rgb(113, 118, 123);
+}
+
+.joinDate {
+  font-size: 15px;
+  color: rgb(113, 118, 123);
+  margin-top: 12px;
+}
+
+.followInfo {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  color: rgb(113, 118, 123);
+}
+
+.followCount {
+  color: #444;
+  font-weight: bold;
+}
+
+.backButton {
+  width: 34px;
+  height: 34px;
+  background-color: transparent;
+  border: none;
+  border-radius: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.backButton:hover {
+  background-color: rgba(239, 243, 244, 0.1);
+}
+
+.verifiedBadge {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 4px;
+  color: rgb(29, 155, 240);
+}
+
+.editPasswordButton {
+  position: absolute;
+  right: 0;
+  top: 60;
+  border: 1px solid rgb(207, 217, 222);
+  padding: 0 16px;
+  border-radius: 20px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: transparent;
+  color: bla;
+  cursor: pointer;
+}

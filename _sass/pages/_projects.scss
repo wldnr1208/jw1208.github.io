@@ -1,0 +1,36 @@
+.project-detail {
+  .project-header {
+    margin-bottom: 2rem;
+
+    img {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .project-info {
+    margin-bottom: 2rem;
+
+    .project-title {
+      margin-bottom: 1rem;
+    }
+
+    .project-tech-stack {
+      font-family: monospace;
+      color: var(--text-muted-color);
+      margin-bottom: 0.5rem;
+    }
+
+    .project-period {
+      font-style: italic;
+    }
+  }
+
+  .project-content {
+    h2 {
+      margin-top: 2rem;
+    }
+  }
+}

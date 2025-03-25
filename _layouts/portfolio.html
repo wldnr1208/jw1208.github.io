@@ -1,0 +1,40 @@
+---
+layout: default
+refactor: true
+---
+
+{% include lang.html %}
+
+<article class="px-1">
+  <header>
+    <h1 data-toc-skip>{{ page.title }}</h1>
+    {% if page.description %}
+    <p class="post-desc fw-light mb-4">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <div class="content">
+    <div class="portfolio-wrapper">
+      {% for year in page.years %}
+      <h2 class="portfolio-year">{{ year.title }}</h2>
+      <div class="portfolio-grid">
+        {% for project in year.projects %}
+        <div
+          class="portfolio-item"
+          onclick="window.location.href='/jw1208.github.io/projects/{{ project.title | downcase }}'"
+        >
+          <div class="portfolio-image">
+            <img src="{{ project.image }}" alt="{{ project.title }}" />
+          </div>
+          <div class="portfolio-content">
+            <h3>{{ project.title }}</h3>
+            <p class="portfolio-tech">[{{ project.tech }}]</p>
+            <p class="portfolio-period">{{ project.period }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</article>

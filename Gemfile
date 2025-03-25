@@ -11,4 +11,10 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo-data"
 end
 
-gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
+gem "wdm", "~> 0.2.0", platforms: [:mingw, :x64_mingw, :mswin]
+
+# Jekyll 관련 의존성 추가
+gem "jekyll", "~> 4.3.0"
+gem "jekyll-archives", "~> 2.2"      # 필요한 의존성
+gem "jekyll-seo-tag", "~> 2.8"       # 필요한 의존성
+gem "jekyll-redirect-from", "~> 0.16" # 필요한 의존성
