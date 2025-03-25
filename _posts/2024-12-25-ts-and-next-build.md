@@ -265,7 +265,7 @@ export default function DynamicImage({ src, alt }: ImageProps) {
         src={src}
         alt={alt}
         fill
-        style={{ objectFit: 'cover' }}
+        style={{ 'objectFit: cover' }}
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         quality={75}
         loading="lazy"
