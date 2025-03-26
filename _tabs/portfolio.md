@@ -21,7 +21,7 @@ years:
   - title: 2023
     projects:
       - title: BAUSCH_APP
-        tech: React-Native, expo
+        tech: React-Native, TypeScript, expo
         period: 2023.10 - 2023.12
         image: /assets/img/portfolio/1.png
         url: /projects/bausch-app
