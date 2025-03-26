@@ -11,9 +11,8 @@ pin: false
 comments: true
 ---
 
-# Spring Security와 JWT를 활용한 인증 시스템 구현 실전 가이드
 
-## 들어가며
+# 들어가며
 최근 많은 웹 애플리케이션에서 JWT(JSON Web Token)를 활용한 인증 방식을 채택하고 있습니다. 이번 포스트에서는 Spring Security와 JWT를 결합하여 안전하고 효율적인 인증 시스템을 구현하는 방법을 실제 프로젝트 코드를 기반으로 상세히 알아보겠습니다.
 
 ## JWT(JSON Web Token)의 이해
