@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: JWDevBlog
 
-tagline: Stars shine for those who gaze upon them. # it will display as the subtitle
+tagline: Stars give light to the beholder. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
