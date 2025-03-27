@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: JWDevBlog
 
-tagline: Stars give light to the beholder. # it will display as the subtitle
+tagline: 별은 바라보는 자에게 빛을 줍니다. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
