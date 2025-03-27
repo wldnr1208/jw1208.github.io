@@ -1,8 +1,8 @@
 ---
-title: "[Back-End] Spring Data JPA에서 새로운 Entity 판단하기"
+title: "[Backend] Spring Data JPA에서 새로운 Entity 판단하기"
 author: jw1208
 date: 2024-12-31
-categories: [Back-End, Spring]
+categories: [Backend, Spring]
 tags: [spring-data-jpa, entity, persistence, back-end, spring-boot]
 image:
   path: /assets/img/posts/jpaentity.PNG
