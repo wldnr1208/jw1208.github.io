@@ -8,7 +8,7 @@ pin: false
 comments: true
 ---
 
-# TypeScript의 `infer` 키워드란?
+# 들어가며
 
 `infer`는 TypeScript에서 **조건부 타입(Conditional Types)**과 함께 사용되어,  
 특정 타입 내부에서 **부분 타입을 추론(infer)**할 수 있게 해주는 키워드입니다.

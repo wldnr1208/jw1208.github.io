@@ -1,9 +1,9 @@
 ---
-title: "[Front-End] Error Boundary에 대하여"
+title: "[Frontend] Error Boundary에 대하여"
 author: jw1208
 date: 2025-01-10
-categories: [Front-End, React, Error]
-tags: [Front-End, React, Error]
+categories: [Frontend, React, Error]
+tags: [Frontend, React, Error]
 image:
   path: /assets/img/posts/error.png
   alt: React Error Boundary
