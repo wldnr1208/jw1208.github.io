@@ -1,5 +1,5 @@
 ---
-title: "[Back-End] 소프트 딜리트 vs 캐스케이드 딜리트: 데이터 삭제 전략 비교"
+title: "[Backend] 소프트 딜리트 vs 캐스케이드 딜리트: 데이터 삭제 전략 비교"
 author: jw1208
 date: 2024-12-19 14:00:00 +0900
 categories: [Database, Architecture]

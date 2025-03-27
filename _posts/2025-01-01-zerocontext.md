@@ -1,9 +1,9 @@
 ---
-title: "[Back-End] JPA 영속성 컨텍스트에 대하여"
+title: "[Backend] JPA 영속성 컨텍스트에 대하여"
 author: jw1208
 date: 2025-01-01 00:00:00 +0900
-categories: [Back-End, Spring]
-tags: [spring, spring-boot, spring-data-jpa, Back-end]
+categories: [Backend, Spring]
+tags: [spring, spring-boot, spring-data-jpa, Backend]
 pin: false
 comments: true
 ---

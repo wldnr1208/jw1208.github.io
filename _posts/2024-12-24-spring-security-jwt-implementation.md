@@ -1,9 +1,9 @@
 ---
-title: "[Back-End] JWT를 활용한 인증 시스템 구현 가이드"
+title: "[BackEnd] JWT를 활용한 인증 시스템 구현 가이드"
 author: jw1208
 date: 2024-12-24 00:00:00 +0900
 categories: [Backend Development, Spring Security]
-tags: [spring, security, jwt, authentication, Back-end]
+tags: [spring, security, jwt, authentication, Backend]
 image:
   path: /assets/img/posts/jwt-auth.PNG
   alt: JWT Authentication Flow

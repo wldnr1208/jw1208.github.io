@@ -1,8 +1,8 @@
 ---
-title: "[Back-End] JPA 엔티티 매니저와 영속성 컨텍스트"
+title: "[Backend] JPA 엔티티 매니저와 영속성 컨텍스트"
 author: jw1208
 date: 2025-01-05
-categories: [Back-End, JPA, Spring]
+categories: [Backend, JPA, Spring]
 tags: [java, spring, jpa, entity-manager, persistence-context]
 pin: false
 comments: true
